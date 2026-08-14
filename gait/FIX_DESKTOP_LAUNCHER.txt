@@ -1,0 +1,12 @@
+1. Copy the .desktop file to the Raspberry Pi desktop:
+   /home/pi/Desktop/gait_app.desktop
+
+2. Make it executable:
+   chmod +x /home/pi/Desktop/gait_app.desktop
+
+3. If the app still does not open, run this manually:
+   export QT_QPA_PLATFORM=eglfs
+   cd /home/pi/Desktop/gait_analysis_visualizer
+   python3 main.py
+
+4. If the app needs the project folder name changed, update the Exec and Path lines in the .desktop file.

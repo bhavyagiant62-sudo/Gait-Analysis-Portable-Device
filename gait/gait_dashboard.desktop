@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Gait Dashboard
+Comment=Clinical Gait Analysis Dashboard
+Exec=/home/pi/gait/start_gait_app.sh
+Icon=/home/pi/gait/icon.png
+Terminal=false
+Categories=Science;Engineering;
+StartupNotify=true

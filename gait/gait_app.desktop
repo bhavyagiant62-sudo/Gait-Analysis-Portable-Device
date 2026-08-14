@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Gait App
+Comment=Wearable Gait Analysis Dashboard
+Exec=/usr/bin/python3 /home/pi/Desktop/gait_analysis_visualizer/main.py
+Path=/home/pi/Desktop/gait_analysis_visualizer
+Icon=applications-science
+Terminal=false
+Categories=Science;Engineering;
+StartupNotify=true
